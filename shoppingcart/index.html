@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>SHOPPING CART</h1>
+    <br>
+    <label>Select Product</label><br>
+    <select name="Biscuits" id="item">
+        <option value="Parle-g">Parle-g</option>
+        <option value="jimjam">jimjam</option>
+        <option value="oreo">oreo</option>
+        <option value="marie">marie</option>
+    </select><br><br>
+    <label>Unit Price:</label><br>
+    <input type="number" readonly><br><br>
+    <label>Select Quantity</label><br>
+    <input type="number" id="quantity" name="quantity" min="0" max="50"><br><br>
+    <button>Add to Cart</button>
+
+
+    <h2>Shopping List</h2>
+
+    <table>
+        <tr>
+            <td>Product Name</td>
+            <td>Quantity</td>
+            <td>Unit Price</td>
+            <td>Sub Total</td>
+            <td>Remove</td>
+
+        </tr>
+    </table>
+
+    <h4>Total Price:</h4>
+    <input type="number" readonly id="total">
+
+    <script src="cart.js"></script>
+
+
+</body>
+
+</html>

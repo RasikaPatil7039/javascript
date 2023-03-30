@@ -1,0 +1,71 @@
+h1 {
+    color: purple;
+    text-align: center;
+    text-transform: uppercase;
+}
+.button {
+    background-color: rgb(46, 230, 214);
+    border-color: aqua;
+    color: white;
+    padding: 40px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    border-radius: 50%;
+
+}
+.gameboard {
+    border-radius: 25px;
+    background-color: rgb(241, 233, 233);
+    border-style: solid;
+    width: 950px;
+    height: 900px;
+    margin: auto;
+    border: 3px solid rgb(8, 162, 8);
+    padding: 10px;
+}
+
+div button{
+border-radius: 50%;
+background-color: #1937d0;
+  border: none;
+  color: rgb(33, 87, 163);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+#solid {
+    border-radius: 25px;
+    background-color: rgb(57, 212, 212);
+    border-style: solid;
+    width: 500px;
+    height: 250px;
+    margin: auto;
+    border: 3px solid green;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+#startbtn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+h1 {
+    color: blue;
+}
+

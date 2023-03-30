@@ -1,0 +1,35 @@
+h1{
+    color: blueviolet;
+    text-align: center;
+    border: 5px dashed;
+}
+.dropbtn{
+    background-color:green;
+    color: white;
+    padding: 16px;
+    border: double;
+    cursor: pointer;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+  }
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+table,th,td{
+  border: 1px solid;
+}
